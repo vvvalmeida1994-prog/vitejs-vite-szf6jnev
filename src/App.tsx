@@ -73,7 +73,7 @@ export default function App() {
 
   const handleAdminLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pinInput === '0000') {
+    if (pinInput === '1994') {
       setIsAdmin(true);
       setShowPinModal(false);
       setPinInput('');
